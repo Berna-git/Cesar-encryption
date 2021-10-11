@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Cifrado De Cesar</title>
+</head>
+<body>
+    <header>
+        <div class="hedear-logo">Logo</div>
+        <div class="hedear-lista" >
+            <ul>
+                <li>Historia del Cifrado</li>
+                <li>Cifrar mensaje</li>
+            </ul>
+        </div>   
+    </header>
+    <main>
+        <section class="main-section_info">
+            <p>
+                Esta calculadora codifica el texto ingresado utilizando el cifrado de Cesar. Los carácteres no-alfabéticos no son transformados.</br>
+                El Cifrado de Caesar es uno de los métodos de codificación conocidos más antiguos. Es muy simple - sólo se cambian las posiciones del alfabeto.</br>
+                 La transformación se denomina ROTN, donde N es el valor de cambio de posiciones y ROT significa "ROTAR", por que es un cambio cíclico.</br>
+                Por ejemplo, ROT2 significa que "a" se vuelve "c", "b" se vuelve "d" y al final "y" se vuelve "a", y "z" se vuelve "b".</br>
+                 La cantidad de transformaciones posibles depende de la longitud del alfabeto. Para Inglés sólo llega a 25 (ROT0 a ROT26 no cambian el texto original).</br> 
+                Debido a eso, es un método muy débil, ya que puedes revisar todas las combinaciones posibles de manera muy rápida.</br>
+                La calculadora a continuación muestra la tabla con todas las transformaciones posibles. Los símbolos no-alfabéticos como espacios y dígitos no cambian.</br>
+            </p>
+        </section>
+        <section class="main-section_cifrado">
+            <div>
+                <h3>Cifrar Mensaje</h3>
+                <h3>Desifrar Mensaje</h3>
+            </div>
+            <div>
+                <select name="" id="selcionardor-root">
+                    <option value="0">ROT0</option>
+                    <option value="1">ROT1</option>
+                    <option value="2">ROT2</option>
+                </select>
+            </div>
+            <textarea name="" id="section-textArea_value" cols="30" rows="10"></textarea>
+            <button id="btn-conver"></button>
+            <input value="0" type="text">
+        </section>
+    </main>
+    <Footer>
+        <p>Como lo hice</p>
+        <i></i>
+        <p>About me:</p>
+        <i></i>
+        <i></i> 
+    </Footer>
+    <script src="./index.js"></script>
+</body>
+</html>

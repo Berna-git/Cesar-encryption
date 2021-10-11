@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hedear-lista {
+    min-width: 40%;
+}
+header .hedear-logo {
+    margin: 10px;
+}
+.hedear-lista ul {
+    display: flex;
+}
+.hedear-lista ul li {
+    margin: 10px 10px;
+    list-style: none;  
+}
+
+.main-section_info {
+   height: 30%;
+   width: 100%;
+   padding: 20px; 
+}
+
+.main-section_cifrado {
+    /* display: flex; */
+    height: 50%;
+}
+button {
+    width: 50px;
+    height: 10px;
+}
