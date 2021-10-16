@@ -39,14 +39,16 @@ header .hedear-logo {
     /* display: flex; */
     height: 50%;
 }
-button {
-    width: 50px;
-    height: 10px;
-}
-
 input {
     width: 40%;
     height: 250px;
+}
+
+.btn-conver {
+    width: 20%;
+    margin: 0 10px;
+    height: 50px;
+    border-radius: 10px;
 }
 
 .section-return_msj {
@@ -57,6 +59,38 @@ input {
 
 .section-traslator {
     width: 100%;
-    height: 500px;
+    height: auto;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0;
+    padding: 0 10px 0 10px;
+}
+
+.main-section_typeCifrado {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    padding: 10px;
+}
+.main-section_typeCifrado button{
+    margin: 10px;
+    border: solid 1px #b9ffff;
+    height: 2.6rem;
+    line-height: 1.2rem;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #155db1;
+    color: white;
+}
+.main-section_typeCifrado button:hover {
+    color: #002973;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.options-roots {
+    height: 2.5rem;
+    align-self: center;
+    border-radius: 15px;
 }
