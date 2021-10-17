@@ -73,20 +73,24 @@ input {
     justify-content: start;
     padding: 10px;
 }
-.main-section_typeCifrado button{
+.typeCifrado-buttons{
     margin: 10px;
-    border: solid 1px #b9ffff;
+    border: solid 1px #0b5897;
     height: 2.6rem;
     line-height: 1.2rem;
     padding: 10px;
     border-radius: 15px;
+    color: #002973;
+    background-color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+}
+.boton-click {
     background-color: #155db1;
     color: white;
 }
 .main-section_typeCifrado button:hover {
-    color: #002973;
-    background-color: whitesmoke;
-    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .options-roots {
