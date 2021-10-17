@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-size: 10px;
 }
 
 body {
@@ -13,11 +14,28 @@ header {
     height: 10%;
     display: flex;
     justify-content: space-between;
+    /* border: solid 1px black */
+}
+
+.hedear-logo img {
+    width: 10rem;
+    height: 7rem;
+
 }
 
 .hedear-lista {
     min-width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+.hedear-lista a {
+    font-size: 2.3rem;
+    text-decoration: none;
+    margin-top: 25px;
+    margin-right: 5px;
+}
+
 header .hedear-logo {
     margin: 10px;
 }
@@ -39,7 +57,7 @@ header .hedear-logo {
     /* display: flex; */
     height: 50%;
 }
-input {
+.textArea {
     width: 40%;
     height: 250px;
 }
@@ -49,6 +67,13 @@ input {
     margin: 0 10px;
     height: 50px;
     border-radius: 10px;
+}
+.main-section_info p {
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    font-family: arial,x-locale-body,sans-serif;
+    letter-spacing: 1px;
+    
 }
 
 .section-return_msj {
@@ -76,7 +101,7 @@ input {
 .typeCifrado-buttons{
     margin: 10px;
     border: solid 1px #0b5897;
-    height: 2.6rem;
+    height: 41.5px;
     line-height: 1.2rem;
     padding: 10px;
     border-radius: 15px;
@@ -84,6 +109,7 @@ input {
     background-color: whitesmoke;
     font-weight: bold;
     cursor: pointer;
+    font-size: 1.6rem;
 }
 .boton-click {
     background-color: #155db1;
@@ -94,7 +120,22 @@ input {
 }
 
 .options-roots {
-    height: 2.5rem;
+    height: 4.5rem;
     align-self: center;
     border-radius: 15px;
+    font-size: 1.6rem;
+    /* background-color: #5893d6; */
+    color:#0b5897 ;
+    border: solid 1px #0b5897;
+}
+
+
+.options-roots:hover {
+    cursor: pointer;
+}
+
+footer {
+    height: 5%;
+    margin-bottom: 0;
+    display: flex;
 }

@@ -4,29 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="/main.css">
+    <script src="https://kit.fontawesome.com/43eb35f60f.js" crossorigin="anonymous"></script>
+
     <title>Cifrado De Cesar</title>
 </head>
 <body>
     <header>
-        <div class="hedear-logo">Logo</div>
+        <div class="hedear-logo">
+            <img src="./assests/features5.png" alt="">
+        </div>
         <div class="hedear-lista" >
-            <ul>
-                <li>Historia del Cifrado</li>
-                <li>Cifrar mensaje</li>
-            </ul>
+           <a href="./pages/anagrama.html">Anagrama</a>
+           <a href="./pages/leetSpeak.html">Leet speak</a>
         </div>   
     </header>
     <main>
-        <section class="main-section_info">
+        <section class="main-section_info" >
             <p>
-                Esta calculadora codifica el texto ingresado utilizando el cifrado de Cesar. Los carácteres no-alfabéticos no son transformados.</br>
-                El Cifrado de Caesar es uno de los métodos de codificación conocidos más antiguos. Es muy simple - sólo se cambian las posiciones del alfabeto.</br>
-                 La transformación se denomina ROTN, donde N es el valor de cambio de posiciones y ROT significa "ROTAR", por que es un cambio cíclico.</br>
-                Por ejemplo, ROT2 significa que "a" se vuelve "c", "b" se vuelve "d" y al final "y" se vuelve "a", y "z" se vuelve "b".</br>
-                 La cantidad de transformaciones posibles depende de la longitud del alfabeto. Para Inglés sólo llega a 25 (ROT0 a ROT26 no cambian el texto original).</br> 
-                Debido a eso, es un método muy débil, ya que puedes revisar todas las combinaciones posibles de manera muy rápida.</br>
-                La calculadora a continuación muestra la tabla con todas las transformaciones posibles. Los símbolos no-alfabéticos como espacios y dígitos no cambian.</br>
+                Esta calculadora codifica el texto ingresado utilizando el cifrado de Cesar. Los carácteres no-alfabéticos no son transformados.
+                El Cifrado de Caesar es uno de los métodos de codificación conocidos más antiguos. Es muy simple - sólo se cambian las posiciones del alfabeto.
+                 La transformación se denomina ROTN, donde N es el valor de cambio de posiciones y ROT significa "ROTAR", por que es un cambio cíclico.
+                Por ejemplo, ROT2 significa que "a" se vuelve "c", "b" se vuelve "d" y al final "y" se vuelve "a", y "z" se vuelve "b".
+                 La cantidad de transformaciones posibles depende de la longitud del alfabeto. Para Inglés sólo llega a 25 (ROT0 a ROT26 no cambian el texto original). 
+                Debido a eso, es un método muy débil, ya que puedes revisar todas las combinaciones posibles de manera muy rápida.
+                La calculadora a continuación te permitira cifrar y desifrar mensajes con el ROT que desees. Los símbolos no-alfabéticos como espacios y dígitos no cambian.
             </p>
         </section>
         <section class="main-section_cifrado">
@@ -34,7 +36,7 @@
                 <button id="btn-cifrar_msj" class="typeCifrado-buttons boton-click"">Cifrar Mensaje</button>
                 <button id="btn-desifrar_msj" class="typeCifrado-buttons">Desifrar Mensaje</button>            
                 <select name=""class="options-roots" id="selcionardor-root">
-                    <option value="0">ROT</option>
+                    <option class="option" value="0">ROT</option>
                     <option value="1">ROT1</option>
                     <option value="2">ROT2</option>
                     <option value="3">ROT3</option>
@@ -65,19 +67,19 @@
             </div>
            
             <div class="section-traslator">
-                <textarea name="" id="section-textArea_value" cols="30" rows="10"></textarea>
-                <input type="text" name="" id="">
+                <textarea class="textArea" id="section-textArea_value" cols="30" rows="10"></textarea>
                 <button id="btn-conver" class="btn-conver">Convertir</button>
                 <div id="section-devolution_msj" class="section-return_msj"></div>
             </div>
         </section>
     </main>
     <Footer>
-        <p>Como lo hice</p>
-        <i></i>
+        <p>Como lo hice:</p>
+        <i class="fab fa-github"></i>
         <p>About me:</p>
         <i></i>
-        <i></i> 
+        <a href="https://www.instagram.com/berna_gonzaa/"><i class="fab fa-instagram"></i></a>
+        
     </Footer>
     <script src="./index.js"></script>
 </body>
