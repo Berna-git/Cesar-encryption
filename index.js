@@ -10,7 +10,7 @@ btnCifrarMsj.addEventListener("click", activeCifrado);
 btnDesifrarMsj.addEventListener("click", activeDesifrado); 
 
 //abecedario
-const abecedario = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","ñ","o","p","q","r","s","t","u","v","w","x","y","z","a","b","c","d","e","f","g","h","i","j","k","l","m","n","ñ","o","p","q","r","s","t","u","v","w","x","y","z"];
+const abecedario = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "ñ", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z","a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "ñ", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 const otherSimbols = ["1","2","3","4","5","6","7","8","9","0",",","."," ","?"];
 //Traigo Los datos del textarea y el Root
 const getDataText = () => {
@@ -24,6 +24,7 @@ const getDataValue = () => {
     return valueOfRoot;
 }
 
+console.log(abecedario.length)
 //Convertir en array un string
 const converToArray = (texto) => {
    let arrayText = Array.from(texto.toLowerCase());
