@@ -43,7 +43,7 @@ const encryptMessage = (textoToConverso,valueRot) => {
                      result.push(abecedario[j + valueRot])
                      break;
                 }else if(textoToConverso[i] === abecedario[j]){
-                    result.push(abecedario[(j + 26) - valueRot])
+                    result.push(abecedario[(j + 27) - valueRot])
                     break;
                 }
             }
