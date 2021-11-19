@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0px;
     font-size: 10px;
-    position: relative;
 }
 
 body {
@@ -57,7 +56,7 @@ main {
 }
 
 .main-section_cifrado {
-    /* display: flex; */
+    position: relative;
     height: 80%;
 }
 .textArea {
@@ -158,9 +157,10 @@ footer {
     height: 10vh;
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
+    /* margin-top: 10rem; */
     padding-bottom: 5px;
     position: absolute;
+    /* bottom: -1px; */
     width: 100%;
 }
 
@@ -185,6 +185,11 @@ footer p {
 
 }
 
+@media (min-width: 1300px) {
+    footer {
+        margin-top: 10rem;
+    }
+}
 
 @media (max-width: 600px) {
     .section-traslator {
