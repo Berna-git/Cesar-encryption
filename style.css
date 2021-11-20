@@ -30,10 +30,15 @@ header {
     align-items: center;
 }
 .hedear-lista a {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0b5897;
     text-decoration: none;
     margin-top: 25px;
     margin-right: 5px;
+}
+.hedear-lista a:hover {
+    color: aqua;
 }
 
 header .hedear-logo {
